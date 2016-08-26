@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="./css/identica.css" />
+	<script type="text/javascript" src="./js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="./js/identica.js"></script>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+    <!-- Demo styles -->
+
+</head>
+<body class="home" id="home">
+	<div class="backgd">
+		<div class="backgd-in">
+			<div class="bi1"></div>
+			<div class="bi2"></div>
+			<div class="bi3"></div>
+			<div class="bi4"></div>
+			<div class="bi5"></div>
+			<div class="bi6"></div>
+			<div class="bi7"></div>
+			<div class="bi8"></div>
+			<div class="bi9"></div>
+			<div class="bi10"></div>
+		</div>
+	</div>
+	<div class="main" style="overflow:hidden;">
+		<div class="nav">
+			<div class="navin" id="navin" >
+				<div class="navinin">
+              	    
+					<a href="./home1.html" id="aboutnew">about us</a>
+					<a href="./portfolio.html">our work</a>
+					<a href="./service.html">services</a>
+					<a href="./newPage.html">team</a>
+					<a href="./contactus.html">contact us</a>
+					<span class="sm-a"><a href="#" class="sm-al sm-a">en</a>|<a href="#" class="sm-ar sm-a">cn</a></span>
+				</div>
+			</div>
+			<span class="navsp" id="navsp" ></span>
+		</div>
+		<!--<div class="slogan">identica</div>
+            		<div class="subslogan">Turning commodity into a subject of desire</div>
+            		<div class="insert_font">SHANGHAI&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;HONGKONG</div>
+            		<img class="bg" src="./img/img0.png" />-->
+                    
+        <a href="./home.html" class="identica_logo">identica</a>
+       <img class="bg1" src="./img/img0.png" />	
+        <!-- Swiper -->
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                	<div class="slogan3">identica</div>
+            			<div class="subslogan3">
+                            <span class="subslogan3_span">identica brand consulting is a premier branding </span>
+                            <span class="subslogan3_span">strategy and design firm based in Shanghai,  </span>
+                            <span class="subslogan3_span">serving clients across China and internationally.</span>
+                        </div>
+            			
+           					
+           </div>
+         
+                <div class="swiper-slide">
+                	<div class="slogan1Box">
+                        <div class="slogan1">
+                            <span class="our">Our Advantages</span>
+                            <span class="slogan1_span">With more than 30 years of experience in branding,</span>
+                            <span class="slogan1_span">marketing strategy and design,  IDENTICA CHINA’s</span>
+                            <span class="slogan1_span">unique advantage is our combination of:</span>            
+                        </div>
+                            <div class="subslogan1">GLOBAL REACH WITH LOCAL MARKET SENSITIVITY</div>
+                            <div class="insert_font1">
+                            	global experience  <br/>local understanding<br/>award-winning creative<br/>benefit from a wide network of partners in Asia<br/>breakthrough business strategy
+                            </div>
+            		</div>		  
+           		</div>
+         
+                <div class="swiper-slide">
+                	<div class="slogan"></div>
+           		 	<div class="subslogan2">
+                    <span class="our">Identica Services</span>
+                    <span class="slogan1_span">Holistic Branding</span>
+                    <span class="slogan1_span">Corporate Identity</span>
+                    <span class="slogan1_span">Retail & Packaging</span>
+                    <span class="slogan1_span">Environmental Design</span>
+                    <span class="slogan1_span">Real Estate Marketing</span>
+                    <span class="slogan1_span">Interactive & Multimedia</span>
+</div>
+
+            		<div class="insert_font"></div>
+            		
+           </div>
+                <div class="swiper-slide" id="aa">
+                
+			<div class="logoblock">
+			<div class="logoline">
+				<a href="#"><img src="./img/logo1.png" /></a>
+				<a href="#"><img src="./img/logo2.png" /></a>
+				<a href="#"><img src="./img/logo3.png" /></a>
+				<a href="#"><img src="./img/logo4.png" /></a>
+			</div>
+			<div class="logoline">
+				<a href="#"><img src="./img/logo5.png" /></a>
+				<a href="#"><img src="./img/logo6.png" /></a>
+				<a href="#"><img src="./img/logo7.png" /></a>
+				<a href="#"><img src="./img/logo8.png" /></a>
+			</div>
+			<div class="logoline">
+				<a href="#"><img src="./img/logo9.png" /></a>
+				<a href="#"><img src="./img/logo10.png" /></a>
+				<a href="#"><img src="./img/logo11.png" /></a>
+                <a href="#"><img src="./img/logo11.png" /></a>
+			</div>
+		
+		</div>
+           </div>
+              
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination">
+        
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.2.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+	
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        mousewheelControl: true
+    });
+   $(function(){
+		  
+		   setInterval(function(){
+			   var catchClass=$(".swiper-pagination span:last").attr("class");
+			   var catchClass2=$(".swiper-pagination span:not():last").attr("class");
+			   var catchClass3=$(".swiper-pagination span:eq(1)").attr("class");
+			/*	if(catchClass3=="swiper-pagination-bullet swiper-pagination-bullet-active"){
+				
+					
+					$('#home').find('.slogan1').css({'opacity':'0','margin-left':'150px'});
+					$('#home').find('.slogan1').delay(1000).animate({'opacity':'1','margin-left':'0px'},2000);
+				 	$('#home').find('.subslogan1').css({'opacity':'0','margin-bottom':'-150px'});
+					$('#home').find('.subslogan1').delay(1500).animate({'opacity':'1','margin-bottom':'0px'},2000);
+				}*/
+			if(catchClass=="swiper-pagination-bullet swiper-pagination-bullet-active")
+			{
+				$('.bg1').hide();
+			}
+			if(catchClass2=="swiper-pagination-bullet")
+			{
+				$('.bg1').show();
+			}
+	   },30);
+	 			
+		
+				
+		   });
+    </script>
+       
+       
+	</div>
+    
+
+
+   
+</body>
+</html>

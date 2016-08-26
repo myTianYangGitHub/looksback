@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="./css/identica.css" />
+	<script type="text/javascript" src="./js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="./js/identica.js"></script>
+  
+</head>
+<body class="home" id="home">
+	<div class="backgd">
+		<div class="backgd-in">
+			<div class="bi1"></div>
+			<div class="bi2"></div>
+			<div class="bi3"></div>
+			<div class="bi4"></div>
+			<div class="bi5"></div>
+			<div class="bi6"></div>
+			<div class="bi7"></div>
+			<div class="bi8"></div>
+			<div class="bi9"></div>
+			<div class="bi10"></div>
+		</div>
+	</div>
+	<div class="main" style="overflow:hidden;">
+		<div class="nav">
+			<div class="navin" id="navin" >
+				<div class="navinin">
+					<a href="./home1.html">about us</a>
+					<a href="./portfolio.html">our work</a>
+					<a href="./service.html">services</a>
+					<a href="./newPage.html">team</a>
+					<a href="./contactus.html">contact us</a>
+					<span class="sm-a"><a href="#" class="sm-al sm-a">en</a>|<a href="#" class="sm-ar sm-a">cn</a></span>
+				</div>
+			</div>
+			<span class="navsp" id="navsp" ></span>
+		</div>
+		<div class="slogan">identica</div>
+		<div class="subslogan">Turning commodity into a subject of desire</div>
+       	<div class="insert_font">SHANGHAI&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;HONGKONG</div>
+		<img class="bg" src="./img/img0.png" />
+        
+        
+        
+	</div>
+	<script type="text/javascript">
+       $(function  () {
+       	var falg=true;
+       	if(falg){
+       	$('.nav').addClass("pop");
+       	$(".navin").css("width",'0px');
+       	$(".navsp").addClass("close");
+       	}
+       	falg=false;
+
+       })
+	</script>
+    
+</body>
+</html>
